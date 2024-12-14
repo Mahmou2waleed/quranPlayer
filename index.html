@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="top">
+      <button class="back" aria-label="Go back"><img src="https://www.svgrepo.com/show/494008/back.svg" class="topImg" alt="Back" /></button>
+      <button class="more" aria-label="Open menu"><img src="https://www.svgrepo.com/show/522555/hamburger-menu.svg" class="topImg" alt="Menu" /></button>
+    </div>
+
+    <div id="app">
+      <div class="midImg">
+        <img src="https://th.bing.com/th/id/R.e55f199b5507f5f7430dcacedcc622be?rik=3ZDOLvvL5cAa5w&pid=ImgRaw&r=0" class="Img" alt="Image" />
+      </div>
+      <h1 class="textName">Al-Faatiha</h1>
+      <p class="Reader">Abdulbaset</p>
+
+      <audio class="audio">
+        <source class="URL" src="https://ia800402.us.archive.org/35/items/Quranicaudio.com-torrent--direct--mp3--quran----128-kb---by-----Abdulbaset/001.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <input type="range" value="0" class="progress" />
+
+      <div class="conBtn">
+        <button id="back" class="backAfterBtn" aria-label="Previous"><img src="https://www.svgrepo.com/show/512685/previous-999.svg" class="backAfterImg" alt="Previous" /></button>
+        <button class="playBtn" aria-label="Play"><img src="https://www.svgrepo.com/show/522226/play.svg" class="playImg" alt="Play" /></button>
+        <button id="after" class="backAfterBtn" aria-label="Next"><img src="https://www.svgrepo.com/show/512548/next-998.svg" class="backAfterImg" alt="Next" /></button>
+      </div>
+    </div>
+  </div>
+  <div id="surahsContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
